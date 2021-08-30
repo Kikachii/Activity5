@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;1,300;1,400&display=swap');
+body{
+    background-color: black;
+    color: white;
+    font-family: Poppins;
+}
+.content{
+    width: 80%;
+    text-align: center;
+    margin-left: 100px; 
+}
+/* header css */
+.main-content{
+    width: 70%;
+    text-align: center;
+    margin-left: 15%;
+}
+.head h1{
+    color: rgb(236, 227, 173);
+    font-size: 60px; 
+    font-weight: 600; 
+}
+.head h4{
+    color: rgb(236, 227, 173);
+    font-size: 20px;  
+}
+.head p{
+    text-align: justify;
+    /* font-size: 15px; */
+    line-height: 22px;
+    color: rgba(255, 255, 255, 0.74);
+    letter-spacing: 2px;
+
+}
+.profile-img, .cont-img{
+    width: 350px;
+    height: 350px;
+    border: 1px solid black;
+    border-radius: 150%;
+}
+.social-icons{
+    margin: 60px 0;
+}
+.social-icons img{
+    padding: 0 25px;
+}
+
+/* about css  */
+.about, .words{
+    display: flex;
+    margin-top: 80px;
+}
+.about h1{
+    color:rgb(236, 227, 173);
+    font-size: 50px;
+    text-align: justify;
+    font-weight: 800;
+}
+.about1 h4{
+    margin-right: 100%;
+    font-weight: 800;
+    letter-spacing: 4px;
+    font-size: 20px;
+}
+.about .about1{
+   flex-basis: 60%;
+
+
+}
+.about2 h4{
+    color: rgb(236, 227, 173); 
+    font-weight: 800;
+    font-size: 20px;
+     text-align: justify;
+}
+.about2{
+    margin-top: 30px;
+}
+.about .about2{
+    flex-basis: 40%;
+    
+}
+.about2 p{
+    text-align: justify;
+}
+.chat{
+    display: flex;
+}
+
+/* portfolio css */
+
+.portfolio{
+    margin-top: 100px;
+}
+.portfolio h2{
+    font-size: 60px;
+}
+.portfolio h2::after{
+    content: "";
+    background-color:  rgb(235, 222, 148) ;
+    display: block;
+    width: 60%;
+    height: 1px;
+    margin: 10px auto;
+}
+.portfolio h1{
+    color:  rgb(235, 222, 148) ;
+    font-size: 60px;
+}
+.portfolio p{
+    color:   rgb(235, 222, 148);
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+.gallery{
+    margin-top: 100px;
+}
+.gallery .row{
+    width: 100%;
+    display: flex;
+  justify-content: space-between;
+}
+.gallery .row2{
+    display: flex;
+ justify-content: space-between;
+}
+.gallery img{
+    width: 600px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 20px;
+    transition: 2s;
+}
+.gallery img:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    z-index: 2;
+}
+
+.btn{
+    margin-top: 40px;
+    padding: 18px 40px;
+    background: transparent;
+    outline: none;
+    border: 2px solid rgb(235, 222, 148) ;
+    color: rgb(235, 222, 148);
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.words{
+    margin-top: 100px;
+}
+.words1{
+    flex-basis: 50%;
+    margin-right: 40px;
+}
+
+.words1 h3{
+    text-align: justify;
+    font-size: 17px;
+    font-weight: 700;
+}
+.words2 {
+    flex-basis: 50%;
+    margin-left: 30px;
+}
+.words2 h4{
+    text-align: justify;
+    font-size: 17px;
+    line-height: 30px;
+   
+}
+.contact{
+    margin-top: 120px;
+}
+.contact h1{
+    font-size: 50px;
+    color: rgb(235, 222, 148);
+    font-weight: bolder;
+}
+.contact-us{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+.location h2{
+    color: rgb(235, 222, 148);
+}
+.location::after{
+    content: "";
+    background-color:  rgb(235, 222, 148) ;
+    display: block;
+    width: 30%;
+    height: 8px;
+    margin: 10px auto;
+}
